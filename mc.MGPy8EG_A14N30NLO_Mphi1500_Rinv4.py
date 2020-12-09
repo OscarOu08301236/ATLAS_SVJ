@@ -90,8 +90,8 @@ evgenConfig.description = "Semivisible jets t-chan"
 evgenConfig.keywords+=['BSM']
 evgenConfig.generators+=["MadGraph","Pythia8","EvtGen"]
 evgenConfig.contact  = ['deepak.kar@cern.ch']
-evgenConfig.inputfilecheck = runName
-runArgs.inputGeneratorFile='tmp_LHE_events.events.tar.gz'
+#evgenConfig.inputfilecheck = runName
+#runArgs.inputGeneratorFile=runName+'._00001.events.tar.gz'
 
 ###Pythia8 commands
 #include("MC15JobOptions/Pythia8_A14_NNPDF23LO_EvtGen_Common.py")
